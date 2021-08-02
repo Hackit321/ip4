@@ -4,3 +4,7 @@ body{
     padding: auto;
     margin: 10px;
 }
+.landing-page{
+  background-image: url("../img/chad-montano-MqT0asuoIcU-unsplash.jpg");
+  color: blue;
+}
