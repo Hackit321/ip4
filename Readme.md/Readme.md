@@ -17,13 +17,24 @@ See a checkout button that when clicked shows the total amount charged for the o
 * in a simple
 * easy-to-understand
 * format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* A Github account
+* preinstalled git
+* Open project on text editor
+* open project on live server
+{This is a one page website with smooth scroll three different section, the landing page ,the menu page and the order page which contains a form which should be submited.}
 ## Known Bugs
 {No knowb bug yet}
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+{The following languages were used for the website}
+*HTML
+*CSS
+*Javascript
+*Jquery
+*Bootstrap 4
+
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+{in case of any issues contact  through mark.kirwa@student.moringaschool.com}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name
+### License
+*{An MIT license has been used
+Copyright (c) {2021}**{https://opensource.org/}**
