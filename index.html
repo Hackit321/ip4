@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -26,11 +27,35 @@
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <title></title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+      body {
+        scroll-behavior: smooth;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        font-family: "Raleway", sans-serif;
+      }
+
+      .landing-page {
+        height: 100vh;
+        width: 100%;
+        background: url("img/chad-montano-MqT0asuoIcU-unsplash.jpg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .menu {
+        background: url("img/anthony-duran-QbOvrpDU1KA-unsplash.jpg");
+      }
+    </style>
+
+    <title>Innit pizza</title>
   </head>
+
   <body>
-    <div class="landing-page">
+    <div class="conatainer-fluid landing-page">
       <section id="landingpage">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">INNIT PIZZA</a>
@@ -53,7 +78,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#formpage">MENU</a>
+                <a class="nav-link" href="#menu">MENU</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#orderpage">ORDER</a>
@@ -63,7 +88,9 @@
         </nav>
       </section>
     </div>
-    <section id="orderpage"></section>
+    <div class="container menu">
+      <section id="menu"></section>
+    </div>
     <section id="formpage"></section>
   </body>
   <script src="js/script.js"></script>
