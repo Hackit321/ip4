@@ -1,98 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
-      body {
-        scroll-behavior: smooth;
-        margin: 0;
-        padding: 0;
-        background: #fff;
-        font-family: "Raleway", sans-serif;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Innit pizza</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="js/jquery.magnific-popup.js" rel="stylesheet">
+</head>
 
-      .landing-page {
-        height: 100vh;
-        width: 100%;
-        background: url("img/chad-montano-MqT0asuoIcU-unsplash.jpg");
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .menu {
-        background: url("img/anthony-duran-QbOvrpDU1KA-unsplash.jpg");
-      }
-    </style>
-
-    <title>Innit pizza</title>
-  </head>
-
-  <body>
-    <div class="conatainer-fluid landing-page">
-      <section id="landingpage">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">INNIT PIZZA</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#landingpage"
-                  >HOME<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#menu">MENU</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#orderpage">ORDER</a>
-              </li>
-            </ul>
+<body>
+  <div class="container-fluid info p-2" id="top-icons">
+    <div class="row">
+      <div class="col d-flex justify-content-between aling-items-basline felx-wrap">
+        <div class="info-icons p-1">
+          <a href="#menu" target="_blank" class="mr-2 primary-color"><i class="fas fa-pizza-slice fa-3x"></i></a>
+          <a href="#menu" class="mr-2 primary-color"><i class="fas fa-pizza-slice fa-3x"></i></a>
+        </div>
+        <h2 class="primary-color p-2 text-capitalize"><a href="http://"></a></h2>
+      </div>
+    </div>
+  </div>
+  <header id="header">
+    <div class="container">
+      <div class="row height-90 align-items-center justify-content-center">
+        <div class="col">
+          <div class="banner text-center">
+            <h1 class="display-1 text-capitalize w-50 mx-auto">
+              <small>your piece</small>
+              <strong class="primary-color">pizza</strong>
+            </h1>
+            <a href="#form" class="btn main-btn pizza-btn my-4 text-capitalize">ORDER ONLINE</a>
           </div>
-        </nav>
-      </section>
+        </div>
+      </div>
     </div>
-    <div class="container menu">
-      <section id="menu"></section>
+    <a href="#special-items" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
+  </header>
+  <section class="py-5" id="special-items">
+    <div class="container my-5">
+      <div class="row parent-container">
+        <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+          <div class="item-container">
+            <img src="img/menu-item1.jpeg" class="img-fluid img-thumbnail item-img" alt="menu item">
+            <a href="img/menu-item1.jpeg">
+              <h1 class="text-uppercase text-center item-link px-3">
+                Margherita
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+          <div class="item-container">
+            <img src="img/menu-item2.jpeg" class="img-fluid img-thumbnail item-img" alt="menu item">
+            <a href="img/menu-item2.jpeg">
+              <h1 class="text-uppercase text-center item-link px-3">
+                Stromboli
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+          <div class="item-container">
+            <img src="img/menu-item3.jpeg" class="img-fluid img-thumbnail item-img" alt="menu item">
+            <a href="img/menu-item3.jpeg">
+              <h1 class="text-uppercase text-center item-link px-3">
+                Marinara
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+          <div class="item-container">
+            <img src="img/menu-item4.jpeg" class="img-fluid img-thumbnail item-img" alt="menu item">
+            <a href="img/menu-item4.jpeg">
+              <h1 class="text-uppercase text-center item-link px-3">
+                Neapolitan
+              </h1>
+            </a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 col-lg-4 my-3">
+          <div class="item-container">
+            <img src="img/menu-item5.jpeg" class="img-fluid img-thumbnail item-img" alt="menu item">
+            <a href="img/menu-item5.jpeg">
+              <h1 class="text-uppercase text-center item-link px-3">
+                pepperoni pizza
+                pepperoni
+              </h1>
+            </a>
+          </div>
+          @@ -308,76 +308,111 @@ <h1 class="text-uppercase primary-color test-dark">ksh 150</h1>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4">
+            <form action="" method="" id="form">
+              <div class="form-group">
+                <label for="size">Pizza Size:</label>
+                <select name="size" id="size" class="form-control">
+                  <option label="small" value="small"></option>
+                  <option label="medium" value="medium"></option>
+                  <option label="large" value="large"></option>
+                  <label for="Pizza" class="lables"><b>Pizza:</b></label>
+                  <select required class="form-control" id="pizza">
+                    <option id="Margherita" value="1000 KES Margherita">
+                      Margherita ksh 1,000
+                    </option>
+                    <option id="Stromboli" value="1500 KES Stromboli">
+                      Stromboli ksh 1,500
+                    </option>
+                    <option id="Marinara" value="2000 KES Marinara">
+                      Marinara ksh 2,000
+                    </option>
+                    <option id="Neapolitan" value="1000 KES Neapolitan">
+                      Neapolitan ksh 1,000
+                    </option>
+                    <option id="pepperoni" value="1500 KES pepperoni">
+                      pepperoni ksh 1,500
+                    </option>
+                    <option id="Calzone" value="2000 KES Calzone">
+                      Calzone ksh 2,000
+                    </option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="crust">Pizza Crust:</label>
+                <select name="crust" id="crust" class="form-control">
+                  <option label="CHEESE-STUFFED CRUST" value="CHEESE-STUFFED CRUST"></option>
+                  <option label="NEAPOLITAN CRUST" value="NEAPOLITAN CRUST"></option>
+                  <option label="THIN CRUST" value="THIN CRUST"></option>
+                  <option label="FLATBREAD" value="FLATBREAD"></option>
+                  <div class="form-group">
+                    <label for="size" class="lables"><b>Pizza Size:</b></label>
+                    <select required name="size" id="size" class="form-control">
+                      <option id="small" value="1000 KES small" label="small KES 1,000"></option>
+                      <option id="regular" value="1000 KES regular" label="regular KES 1,000"></option>
+                      <option id="medium" value="1500 KES Medium" label="Medium KES 1,500"></option>
+                      <option id="large" value="2000 KES large" label="Large KES 2,000"></option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="crust" class="lables"><b>Pizza Crust:</b></label>
+                    <select required name="crust" id="crust" class="form-control">
+                      <option id="Cheese-Stuffed" value="Cheese-Stuffed ksh 250" label="Cheese-Stuffed ksh 250">
+                      </option>
+                      <option id="Neapolitan" value="Neapolitan ksh 450" label="Neapolitan ksh 450"></option>
+                      <option id="Thin" value="Thin ksh 150" label="Thin ksh 150"></option>
+                      <option id="flatbread" value="Flatbread ksh 350" label="Flatbread ksh 350"></option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="toppings" class="lables"><b>Toppings:</b></label>
+                    <select required class="form-control mb-2" id="topping">
+                      <option id="Mushrooms" value="150 KES Mushrooms" label="150 KES Mushrooms"></option>
+                      <option id="pepperoni" value="200 KES pepperoni" label="200 KES pepperoni"></option>
+                      <option id="Onions" value="100 KES Onions" label="100 KES Onions"></option>
+                      <option id="Extra cheese" value="150 KES Extra cheese" label="150 KES Extra cheese"></option>
+                      <option id="Black olives" value="150 KES Black olives" label="150 KES Black olives"></option>
+                      <option id="Pineapple" value="200 KES Pineapple" label="200 KES Pineapple"></option>
+                      <option id="Ham" value="100 KES Ham" label="100 KES Ham"></option>
+                    </select>
+                  </div>
+                  <label for="delivery" class="lables"><b>Delivery:</b></label>
+                  <select required class="form-control" id="delivery">
+                    <option id="delivery1" value="200 KES delivery">Delivery - KES 200</option>
+                    <option id="pickup" value="pickup">pickup</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="toppings">Pizza Toppings:</label>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="MUSHROOMS">
+                  <label class="custom-control-label" for="MUSHROOMS">MUSHROOMS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="PEPPERONI:">
+                  <label class="custom-control-label" for="PEPPERONI:">PEPPERONI</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="ONIONS">
+                  <label class="custom-control-label" for="ONIONS">ONIONS</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="EXTRA CHEESE">
+                  <label class="custom-control-label" for="EXTRA CHEESE">EXTRA CHEESE</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="BLACK OLIVES">
+                  <label class="custom-control-label" for="BLACK OLIVES">BLACK OLIVES</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="PINEAPPLE">
+                  <label class="custom-control-label" for="PINEAPPLE">PINEAPPLE</label>
+                  <form class="form-group checkout">
+                    <div class="">
+                      <label for="name" class="lables"><b>Name:</b></label>
+                      <input type="text" class="form-control" id="name" placeholder="Name..." name="name" required>
+                      <label for="phone" class="lables"><b>contacts:</b></label>
+                      <input type="text" class="form-control" id="number" placeholder="+254XXXXXXXX" name="number"
+                        required>
+                      <label for="delivery" class="lables"><b>Instructions:</b></label>
+                      <textarea type="text" id="address" class="form-control" placeholder="instructions"
+                        required></textarea>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="HAM">
+                      <label class="custom-control-label" for="HAM">HAM</label>
+                      <label for="amount" class="lables"><b>Quantity:</b></label>
+                      <input id="amount" class="product-quantity form-control" name="product_quantity" value="0">
+                  </form>
+                  <button<a href="#receipt" type="button" class="btn btn-primary btn-block mt-4 mb-4"
+                    data-toggle="modal" data-target="#exampleModalCenter" id="checkout7" onclick="getValue();">
+                    Summary
+                    </button>
+                    </a>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-Centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Order Summary</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-primary btn-md btn-block">SUBMIT</button>
+            </form>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="size">DELIVERY/PICK-UP:</label>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="delivery" name="delivery" required>
+                <label class="custom-control-label" for="delivery">DELIVERY</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="PICK-U" name="PICK-UP" required>
+                <label class="custom-control-label" for="PICK-U">PICK-UP</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <section id="formpage"></section>
-  </body>
-  <script src="js/script.js"></script>
-  <script src="js/jquery-3.6.0.min.js"></script>
+    </article>
+    <footer class="container-fluid info p-3" id="bottom-icons">
+      <div class="row">
+        <div class="col d-flex justify-content-between aling-items-basline felx-wrap">
+          <div class="info-icons p-2">
+            <a href="https://www.facebook.com" target="_blank" class="mr-2 primary-color"><i
+                class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"><i
+                class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="mr-2 primary-color"><i
+                class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UCDE9D_2439Kro6tbYOB05HQ" target="_blank"
+              class="mr-2 primary-color"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+          <h2 class="primary-color p-2 text-capitalize">606606 ngong rd, kilimani, nairobi</h2>
+        </div>
+      </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+
 </html>
