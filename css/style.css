@@ -1,10 +1,16 @@
-
-body{
-    scroll-behavior: smooth;
-    padding: auto;
-    margin: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: "Raleway", sans-serif;
 }
-.landing-page{
-  background-image: url("../img/chad-montano-MqT0asuoIcU-unsplash.jpg");
-  color: blue;
+.landing-page {
+  height: 100vh;
+  width: 100%;
+  background: url("img/chad-montano-MqT0asuoIcU-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  
 }
