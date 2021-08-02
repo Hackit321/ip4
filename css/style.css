@@ -1,16 +1,172 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 body {
-  scroll-behavior: smooth;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    background: url(../img/chad-montano-MqT0asuoIcU-unsplash.jpg)center/cover fixed no-repeat;
 }
-.landing-page {
-  height: 100vh;
-  width: 100%;
-  background: url("img/chad-montano-MqT0asuoIcU-unsplash.jpg");
-  background-position: center;
-  background-size: cover;
-  
+.info {
+    background: bisque;
+}
+.primary-color {
+    color: #000;
+}
+.info h2 {
+    word-spacing: 0.6rem;
+}
+.info a {
+    transition: color 1.125s ease-in-out;
+}
+.info a:hover {
+    color: red;
+}
+#header {
+    height: calc(100vh - 94px);
+    background: url(../img/anthony-duran-QbOvrpDU1KA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.height-90 {
+    height: calc(100vh - 94px);
+}
+.banner h1 {
+    border-top: 6px double bisque;
+    border-bottom: 6px double bisque;
+    animation: fromLeft;
+    animation-duration: 4s; 
+    animation-delay: 1.125s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes fromLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(30px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.main-btn {
+    color: #000;
+    font-size: 2rem;
+    border: 2px solid bisque;
+    transition: all 1.5s ease-in-out;
+}
+.main-btn:hover {
+    color: red;
+    border: 2pt solid whitesmoke;
+    background: #000;
+}
+.pizza-btn {
+    animation: fromRight;
+    animation-duration: 4s; 
+    animation-delay: 1.125s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes fromRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-30px)
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.header-link {
+    display: inline-block;
+    position: absolute;
+    bottom: 0.555rem;
+    left: 50%;
+    background: bisque;
+    border-radius: 10px;
+    transition: all 2s ease;
+    animation: fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.header-link:hover {
+    color: red;
+}
+@keyframes fromBottom {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.item-container {
+    position: relative;
+      overflow: hidden;
+    background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    transition: all 2s ease;
+}
+.item-img {
+    transition: all 2s ease;
+}
+.item-container:hover .item-img {
+    transform:  scale(1.2);
+    opacity: 0.5;
+}
+.item-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: bisque;
+    font-size: 2rem;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    transition: 2s all ease;
+    opacity: 0;
+}
+.item-container:hover .item-link {
+    opacity: 1;
+}
+.item-link:hover {
+    color: red;
+    border: 3px solid red;
+    background: black;
+    color: whitesmoke;
+}
+.item-container:hover {
+    outline: 10px solid bisque;
+    outline-offset: 0.8rem;
+}
+#menu {
+    background: linear-gradient(rgba(255,255,255,0.455),rgba(255,255,255,0.455)),
+    url(../img/artur-rutkowski-4yzEtTQLdL4-unsplash.jpg)center/cover fixed no-repeat;
+}
+.special {
+    border: 7px ridge red;
+    position: relative;
+}
+.special-text {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    background: black; 
+    color: bisque;
+}
+.index-form {
+    width: 100%;
+    background: url(../img/set.jpeg)center/cover fixed no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    scroll-padding-bottom: 60px;
 }
