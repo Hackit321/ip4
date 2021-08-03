@@ -170,3 +170,9 @@ body {
     padding-bottom: 60px;
     scroll-padding-bottom: 60px;
 }
+#banner-logo{
+display: center;
+block-size: 100px;
+
+
+}
